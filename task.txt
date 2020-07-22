@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<style>
+	input{
+		border-style:solid;
+		border-width:1px;
+		padding:10px;
+		font-weight:bold;
+	}
+</style>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="refresh" content="30">
+</head>
+<body>
+	<div style="width:420px;margin:auto;">
+	<div style="border-right-style:solid;border-width:4px;border-bottom-style:solid;border-radius:8px;">
+	<div style="height:50px;width:400px;background-color:blue;color:white;margin:auto;">
+		<h2 style="text-align:center;padding:10px;font-family:Times New Roman;">Sign in</h2><br><br>
+	</div>
+	<div style="margin-left:70px;">
+		<br>
+		<input type="email" name="email" placeholder="mail@example.com" size="35" autofocus size="35">
+		<br><br>
+		<input type="password" name="password" placeholder="password" size="35"> 
+		<br><br>		
+	</div>
+	<div style="background-color:rgb(0,180,255);width:350px;height:45px;margin:auto;">
+		<h2 style="text-align:center;padding:15px;font-family:georgia;color:white;font-weight:normal;font-size:1em;">SIGN IN</h2>
+	</div>
+	<div style="margin-left:30px;">
+		<pre><h3>Forgot password?                   Register!</h3></pre>
+	</div>
+	<div style="width:350px;margin:auto;">
+		<a href="https://www.facebook.com/" target="blank" style="text-decoration:none;"><h2 style="text-align:center;border:2px solid blue;background-color:blue;color:white;border-radius:6px;font-family:verdana;padding:6px;">f</h2></a>
+		<a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank" style="text-decoration:none;"><h2 style="text-align:center;border:2px solid red;background-color:red;color:white;border-radius:6px;font-family:calibri;padding:6px;font-size:1.8em;font-weight:normal;">g</h2></a>
+		<h2 style="text-align:center;border:2px solid yellow;background-color:yellow;color:white;border-radius:6px;padding:6px;">EPAM LOGIN</h2>
+	</div></div></div>
+</body>
+</html>
